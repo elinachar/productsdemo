@@ -1,0 +1,12 @@
+<div class="container">
+    <h1>Editing Product</h1>
+
+     <div class="row">
+        <div class="col-10 offset-1 col-md-8 offset-md-2">
+            <%= render 'form', product: @product %>
+        </div>
+    </div>
+    <br>
+    <%= link_to "<i class='fas fa-angle-left'></i> Back to All Products".html_safe, products_path, class: "btn btn-light mr-3 mb-4" %>
+    <%= link_to 'Cancel Editing', @product, class: "btn btn-secondary mb-4" %>
+</div>
