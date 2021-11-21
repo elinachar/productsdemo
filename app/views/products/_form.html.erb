@@ -13,7 +13,7 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :title %><br>
+    <%= form.label "Title*" %><br>
     <%= form.text_field :title %>
   </div>
 
@@ -29,14 +29,14 @@
 
   <div class="field">
     <%= form.label :initial_price do %>
-      Initial Price (&euro;)
+      Initial Price (&euro;)*
     <% end %><br>
     <%= form.text_field :initial_price %>
   </div>
 
   <div class="field">
     <%= form.label :final_price do%>
-      Final Price (&euro;)
+      Final Price (&euro;)*
     <% end %><br>
     <%= form.text_field :final_price %>
   </div>
